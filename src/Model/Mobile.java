@@ -4,27 +4,31 @@ import java.awt.Image;
 
 public class Mobile implements IMobile{
 	private int speed;
+	Direction direction;
+	Position position;
+	Dimension dimension;
 public Mobile (Direction direction, Position position, Dimension dimension, int speed, String image) {
 	
 }
 @Override
 public Direction getDirection() {
-	// TODO Auto-generated method stub
-	return null;
+	return direction;
 }
+@Override 
+public void setDirection(Direction direction) {
+	this.direction = direction;
+}
+
 @Override
 public Position getPosition() {
-	// TODO Auto-generated method stub
-	return null;
+	return position;
 }
 @Override
 public Dimension getDimension() {
-	// TODO Auto-generated method stub
-	return null;
+	return dimension;
 }
 @Override
 public int getWith() {
-	// TODO Auto-generated method stub
 	return 0;
 }
 @Override
