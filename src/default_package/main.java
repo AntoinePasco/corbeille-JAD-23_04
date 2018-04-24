@@ -11,4 +11,5 @@ public class main {
         dogfightController.setViewSystem(dogfightView);
         dogfightController.play();
     }
+
 }
