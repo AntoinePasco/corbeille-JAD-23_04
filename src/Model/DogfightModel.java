@@ -2,8 +2,8 @@ package Model;
 
 import java.util.ArrayList;
 
-public class DogFightModel implements IDogFightModel {
-public DogFightModel() {
+public class DogfightModel implements IDogfightModel {
+public DogfightModel() {
 		
 	}
 
