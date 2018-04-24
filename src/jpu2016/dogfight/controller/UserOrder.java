@@ -21,5 +21,4 @@ private int player;
         this.player = player;
     }
 
-
 }
