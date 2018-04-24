@@ -4,6 +4,7 @@ import java.awt.Image;
 
 public interface IMobile {
 public Direction getDirection();
+public void setDirection(Direction direction);
 public Position getPosition();
 public Dimension getDimension();
 public int getWith();
