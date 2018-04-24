@@ -1,9 +1,8 @@
 package jpu2016.dogfight.controller;
 import jpu2016.dogfight.Model.IDogFightModel;
 
-
 public class DogfightController implements IOrderPerformer {
-private int TIME_SLEEP = 30;
+private static final int TIME_SLEEP = 30;
 public void orderPerform(UserOrder userOrder){
 
     }
@@ -21,7 +20,7 @@ public void orderPerform(UserOrder userOrder){
     }
 
     private void launchMissile(int player){
-
+    Missile unMissile = new Missile ();
     }
 
     private void gameLoop() {
