@@ -1,5 +1,5 @@
 package jpu2016.dogfight.controller;
-import jpu2016.dogfight.Model.IDogFightModel;
+import IDogFightModel;
 
 public class DogfightController implements IOrderPerformer {
 private static final int TIME_SLEEP = 30;
